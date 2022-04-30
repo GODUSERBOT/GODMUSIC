@@ -6,8 +6,8 @@ from pyrogram.types import (InlineKeyboardButton,
 from youtubesearchpython import VideosSearch
 
 from config import BANNED_USERS, MUSIC_BOT_NAME
-from Rockz import app
-from Rockz.utils.inlinequery import answer
+from Gods import app
+from Gods.utils.inlinequery import answer
 
 
 @app.on_inline_query(~BANNED_USERS)
