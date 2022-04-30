@@ -23,9 +23,9 @@ def track_markup(_, videoid, user_id):
             ),
         ],
         [
-                InlineKeyboardButton("乂sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Updates"),
+                InlineKeyboardButton("乂sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Goduserbot_support"),
                 InlineKeyboardButton(
-                    "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates"
+                    "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Goduserbot_support"
              ),
         ],
         [
@@ -50,9 +50,9 @@ def stream_markup(_, videoid):
             ),
         ],
         [
-                InlineKeyboardButton("乂sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Updates"),
+                InlineKeyboardButton("乂sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Goduserbot_support"),
                 InlineKeyboardButton(
-                    "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates"
+                    "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Goduserbot_support"
             ),
         ],
         [
@@ -83,17 +83,17 @@ def playlist_markup(_, videoid, user_id, ptype):
         [
             InlineKeyboardButton(
                 text=_["P_B_1"],
-                callback_data=f"RockPlaylists {videoid}|{user_id}|{ptype}|a",
+                callback_data=f"GodsPlaylists {videoid}|{user_id}|{ptype}|a",
             ),
             InlineKeyboardButton(
                 text=_["P_B_2"],
-                callback_data=f"RockPlaylists {videoid}|{user_id}|{ptype}|v",
+                callback_data=f"GodsPlaylists {videoid}|{user_id}|{ptype}|v",
             ),
         ],
         [
-                InlineKeyboardButton("乂sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Updates"),
+                InlineKeyboardButton("乂sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Goduserbot_support"),
                 InlineKeyboardButton(
-                    "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates"
+                    "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Goduserbot_support"
              ),
         ],
         [
@@ -136,9 +136,9 @@ def slider_markup(_, videoid, user_id, query, query_type):
             ),
         ],
         [
-                InlineKeyboardButton("乂sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Updates"),
+                InlineKeyboardButton("乂sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Goduserbot_support"),
                 InlineKeyboardButton(
-                    "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates"
+                    "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Goduserbot_support"
             ),
         ],
         [
