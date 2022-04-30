@@ -6,15 +6,15 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from Rockz import YouTube, app
-from Rockz.core.call import Rock
-from Rockz.misc import db
-from Rockz.utils.database import get_loop
-from Rockz.utils.decorators import AdminRightsCheck
-from Rockz.utils.inline.play import (stream_markup,
+from Gods import YouTube, app
+from Gods.core.call import Gods
+from Gods.misc import db
+from Gods.utils.database import get_loop
+from Gods.utils.decorators import AdminRightsCheck
+from Gods.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from Rockz.utils.stream.autoclear import auto_clean
-from Rockz.utils.thumbnails import gen_thumb
+from Gods.utils.stream.autoclear import auto_clean
+from Gods.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
@@ -59,7 +59,7 @@ async def skip(cli, message: Message, _, chat_id):
                                             message.from_user.first_name
                                         )
                                     )
-                                    await Rock.stop_stream(chat_id)
+                                    await Gods.stop_stream(chat_id)
                                 except:
                                     return
                                 break
@@ -86,7 +86,7 @@ async def skip(cli, message: Message, _, chat_id):
                     _["admin_10"].format(message.from_user.first_name)
                 )
                 try:
-                    return await Rock.stop_stream(chat_id)
+                    return await Gods.stop_stream(chat_id)
                 except:
                     return
         except:
@@ -110,7 +110,7 @@ async def skip(cli, message: Message, _, chat_id):
                 _["admin_11"].format(title)
             )
         try:
-            await Rock.skip_stream(chat_id, link, video=status)
+            await Gods.skip_stream(chat_id, link, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         button = telegram_markup(_)
@@ -137,7 +137,7 @@ async def skip(cli, message: Message, _, chat_id):
         except:
             return await mystic.edit_text(_["call_9"])
         try:
-            await Rock.skip_stream(chat_id, file_path, video=status)
+            await Gods.skip_stream(chat_id, file_path, video=status)
         except Exception:
             return await mystic.edit_text(_["call_9"])
         button = stream_markup(_, videoid)
@@ -153,7 +153,7 @@ async def skip(cli, message: Message, _, chat_id):
         await mystic.delete()
     elif "index_" in queued:
         try:
-            await Rock.skip_stream(chat_id, videoid, video=True)
+            await Gods.skip_stream(chat_id, videoid, video=True)
         except Exception:
             return await message.reply_text(_["call_9"])
         button = telegram_markup(_)
@@ -164,7 +164,7 @@ async def skip(cli, message: Message, _, chat_id):
         )
     else:
         try:
-            await Rock.skip_stream(chat_id, queued, video=status)
+            await Gods.skip_stream(chat_id, queued, video=status)
         except Exception:
             return await message.reply_text(_["call_9"])
         if videoid == "telegram":
