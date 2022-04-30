@@ -13,17 +13,17 @@ from pyrogram.types import (InlineKeyboardButton,
 import config
 from config import BANNED_USERS, MUSIC_BOT_NAME
 from strings import get_command, get_string
-from Rockz import YouTube, app
-from Rockz.core.userbot import assistants
-from Rockz.misc import SUDOERS, pymongodb
-from Rockz.utils.database import (get_global_tops, get_lang,
+from Gods import YouTube, app
+from Gods.core.userbot import assistants
+from Gods.misc import SUDOERS, pymongodb
+from Gods.utils.database import (get_global_tops, get_lang,
                                        get_particulars, get_queries,
                                        get_served_chats,
                                        get_served_users, get_sudoers,
                                        get_top_chats, get_topp_users,
                                        is_commanddelete_on)
-from Rockz.utils.decorators.language import languageCB
-from Rockz.utils.inline.stats import (back_stats_markup,
+from Gods.utils.decorators.language import languageCB
+from Gods.utils.inline.stats import (back_stats_markup,
                                            overallback_stats_markup,
                                            top_ten_stats_markup)
 
