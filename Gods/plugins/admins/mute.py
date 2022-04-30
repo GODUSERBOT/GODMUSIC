@@ -5,10 +5,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from Rockz import app
-from Rockz.core.call import Rock
-from Rockz.utils.database import is_muted, mute_on
-from Rockz.utils.decorators import AdminRightsCheck
+from Gods import app
+from Gods.core.call import Gods
+from Gods.utils.database import is_muted, mute_on
+from Gods.utils.decorators import AdminRightsCheck
 
 # Commands
 MUTE_COMMAND = get_command("MUTE_COMMAND")
@@ -24,7 +24,7 @@ async def mute_admin(cli, message: Message, _, chat_id):
     if await is_muted(chat_id):
         return await message.reply_text(_["admin_5"])
     await mute_on(chat_id)
-    await Rock.mute_stream(chat_id)
+    await Gods.mute_stream(chat_id)
     await message.reply_text(
         _["admin_6"].format(message.from_user.mention)
     )
