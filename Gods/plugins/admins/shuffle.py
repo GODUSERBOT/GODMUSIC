@@ -7,9 +7,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from Rockz import app
-from Rockz.misc import db
-from Rockz.utils.decorators import AdminRightsCheck
+from Gods import app
+from Gods.misc import db
+from Gods.utils.decorators import AdminRightsCheck
 
 # Commands
 SHUFFLE_COMMAND = get_command("SHUFFLE_COMMAND")
