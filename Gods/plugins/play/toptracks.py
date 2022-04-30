@@ -4,12 +4,12 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup
 
 from config import BANNED_USERS
-from Rockz import app
-from Rockz.utils.database import (get_chatmode, get_cmode,
+from Gods import app
+from Gods.utils.database import (get_chatmode, get_cmode,
                                        get_global_tops,
                                        get_particulars, get_userss)
-from Rockz.utils.decorators.language import languageCB
-from Rockz.utils.inline.playlist import (botplaylist_markup,
+from Gods.utils.decorators.language import languageCB
+from Gods.utils.inline.playlist import (botplaylist_markup,
                                               failed_top_markup,
                                               top_play_markup)
 from Rockz.utils.stream.stream import stream
