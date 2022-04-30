@@ -8,8 +8,8 @@
 # All rights reserved.
 
 from config import LOG, LOG_GROUP_ID
-from Rockz import app
-from Rockz.utils.database import is_on_off
+from Gods import app
+from Gods.utils.database import is_on_off
 
 
 async def play_logs(message, streamtype):
@@ -19,7 +19,7 @@ async def play_logs(message, streamtype):
         else:
             chatusername = "Private Group"
         logger_text = f"""
-**ROCK PLAY LOG**
+**GODS PLAY LOG**
 
 **Chat:** {message.chat.title} [`{message.chat.id}`]
 **User:** {message.from_user.mention}
