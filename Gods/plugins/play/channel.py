@@ -4,9 +4,9 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from Rockz import app
-from Rockz.utils.database import set_cmode
-from Rockz.utils.decorators.admins import AdminActual
+from Gods import app
+from Gods.utils.database import set_cmode
+from Gods.utils.decorators.admins import AdminActual
 
 ### Multi-Lang Commands
 CHANNELPLAY_COMMAND = get_command("CHANNELPLAY_COMMAND")
