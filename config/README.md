@@ -1,4 +1,4 @@
-# Rock Music Bot Configs
+# Gods Music Bot Configs
 
 Config vars are basically the variables which configure or modify bot to function, which are the basic necessities of plugins or code to work. You have to set the proper mandatory vars to make it functional and to start the basic feature of bot.
 
@@ -14,7 +14,7 @@ Config vars are basically the variables which configure or modify bot to functio
 5. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
 6. `MUSIC_BOT_NAME` : A name for your Music bot.
 7. `OWNER_ID` : Your Owner ID for managing your bot.
-8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@Rock_session_bot](http://t.me/Rock_session_bot) in Telegram.
+8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from [@Gods_session_bot](http://t.me/@MRINVISIBLE_OFFICIAL) in Telegram.
 
 
 ## Non-Mandatory Vars
@@ -93,7 +93,7 @@ Config vars are basically the variables which configure or modify bot to functio
 
 - You can use upto 5 Assistant Clients ( allowing your bot to atleast work in 2000-2500 chats at a time )
 
-1. `STRING_SESSION2` : Pyrogram Session Needed, Generate string from [@Rock_session_bot](http://t.me/Rock_session_bot) in Telegram.
-2. `STRING_SESSION3` : Pyrogram Session Needed, Generate string from [@Rock_session_bot](http://t.me/Rock_session_bot) in Telegram.
-3. `STRING_SESSION4` : Pyrogram Session Needed, Generate string from [@Rock_session_bot](http://t.me/Rock_session_bot) in Telegram.
-4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@Rock_session_bot](http://t.me/Rock_session_bot) in Telegram.
+
+
+
+
