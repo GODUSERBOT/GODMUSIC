@@ -7,8 +7,8 @@ import wget
 from pyrogram import filters
 
 from strings import get_command
-from Rockz import app
-from Rockz.misc import SUDOERS
+from Gods mport app
+from Gods.misc import SUDOERS
 
 # Commands
 SPEEDTEST_COMMAND = get_command("SPEEDTEST_COMMAND")
