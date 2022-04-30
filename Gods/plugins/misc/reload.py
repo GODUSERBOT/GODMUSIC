@@ -5,10 +5,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
 from strings import get_command
-from Rockz import app
-from Rockz.utils.database import get_authuser_names
-from Rockz.utils.decorators import language
-from Rockz.utils.formatters import alpha_to_int
+from Gods import app
+from Gods.utils.database import get_authuser_names
+from Gods.utils.decorators import language
+from Gods.utils.formatters import alpha_to_int
 
 ### Multi-Lang Commands
 RELOAD_COMMAND = get_command("RELOAD_COMMAND")
