@@ -8,8 +8,8 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
 from config import (BANNED_USERS, CLEANMODE_DELETE_MINS,
                     MUSIC_BOT_NAME, OWNER_ID)
 from strings import get_command
-from Rockz import app
-from Rockz.utils.database import (add_nonadmin_chat,
+from Gods import app
+from Gods.utils.database import (add_nonadmin_chat,
                                        cleanmode_off, cleanmode_on,
                                        commanddelete_off,
                                        commanddelete_on,
@@ -27,13 +27,13 @@ from Rockz.utils.database import (add_nonadmin_chat,
                                        save_video_bitrate,
                                        set_chatmode, set_playmode,
                                        set_playtype)
-from Rockz.utils.decorators.admins import ActualAdminCB
-from Rockz.utils.decorators.language import language, languageCB
-from Rockz.utils.inline.settings import (
+from Gods.utils.decorators.admins import ActualAdminCB
+from Gods.utils.decorators.language import language, languageCB
+from Gods.utils.inline.settings import (
     audio_quality_markup, auth_users_markup,
     cleanmode_settings_markup, playmode_users_markup, setting_markup,
     video_quality_markup)
-from Rockz.utils.inline.start import private_panel
+from Gods.utils.inline.start import private_panel
 
 ### Command
 SETTINGS_COMMAND = get_command("SETTINGS_COMMAND")
