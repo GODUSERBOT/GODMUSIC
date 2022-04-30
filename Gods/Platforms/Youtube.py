@@ -11,8 +11,8 @@ from pyrogram.types import Message
 from youtubesearchpython import VideosSearch
 
 import config
-from Rockz.utils.database import is_on_off
-from Rockz.utils.formatters import time_to_seconds
+from Gods.utils.database import is_on_off
+from Gods.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
