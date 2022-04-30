@@ -8,5 +8,5 @@ import config
 _mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
 _mongo_sync_ = MongoClient(config.MONGO_DB_URI)
 
-mongodb = _mongo_async_.Rock
-pymongodb = _mongo_sync_.Rock
+mongodb = _mongo_async_.Gods
+pymongodb = _mongo_sync_.Gods
