@@ -3,10 +3,10 @@
 from pyrogram import filters
 
 from config import BANNED_USERS
-from Rockz import YouTube, app
-from Rockz.utils.database import get_chatmode, get_cmode
-from Rockz.utils.decorators.language import languageCB
-from Rockz.utils.stream.stream import stream
+from Gods import YouTube, app
+from Gods.utils.database import get_chatmode, get_cmode
+from Gods.utils.decorators.language import languageCB
+from Gods.utils.stream.stream import stream
 
 
 @app.on_callback_query(filters.regex("LiveStream") & ~BANNED_USERS)
