@@ -1,6 +1,6 @@
 # @xmartperson
 from strings import get_string
-from Rockz.utils.database import get_lang, is_commanddelete_on
+from Gods.utils.database import get_lang, is_commanddelete_on
 
 
 def language(mystic):
