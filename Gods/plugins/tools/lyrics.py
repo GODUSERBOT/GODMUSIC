@@ -11,8 +11,8 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import BANNED_USERS, lyrical
 from strings import get_command
-from Rockz import app
-from Rockz.utils.decorators.language import language
+from Gods import app
+from Gods.utils.decorators.language import language
 
 ###Commands
 LYRICS_COMMAND = get_command("LYRICS_COMMAND")
