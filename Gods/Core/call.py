@@ -16,20 +16,20 @@ from pytgcalls.types.stream import StreamAudioEnded
 
 import config
 from strings import get_string
-from Rockz import LOGGER, YouTube, app
-from Rockz.misc import db
-from Rockz.utils.database import (get_assistant,
+from Gods import LOGGER, YouTube, app
+from Gods.misc import db
+from Gods.utils.database import (get_assistant,
                                        get_audio_bitrate, get_lang,
                                        get_loop, get_video_bitrate,
                                        group_assistant, mute_off,
                                        remove_active_chat,
                                        remove_active_video_chat,
                                        set_loop)
-from Rockz.utils.exceptions import AssistantErr
-from Rockz.utils.inline.play import (stream_markup,
+from Gods.utils.exceptions import AssistantErr
+from Gods.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from Rockz.utils.stream.autoclear import auto_clean
-from Rockz.utils.thumbnails import gen_thumb
+from Gods.utils.stream.autoclear import auto_clean
+from Gods.utils.thumbnails import gen_thumb
 
 
 async def _clear_(chat_id):
@@ -445,4 +445,4 @@ class Call(PyTgCalls):
             await self.change_stream(client, update.chat_id)
 
 
-Rock = Call()
+God= Call()
