@@ -16,9 +16,9 @@ def song_markup(_, vidid):
             ),
         ],
         [
-                InlineKeyboardButton("乂sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Rockerz_Updates"),
+                InlineKeyboardButton("乂sᴜᴘᴘᴏʀᴛ乂", url=f"https://t.me/Goduserbot_support"),
                 InlineKeyboardButton(
-                    "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Rockerz_Updates"
+                    "乂ᴄʜᴀɴɴᴇʟ乂", url=f"https://t.me/Goduserbot_support"
             ),
         ],
         [
