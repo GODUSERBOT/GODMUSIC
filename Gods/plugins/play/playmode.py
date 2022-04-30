@@ -5,11 +5,11 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
 from strings import get_command
-from Rockz import app
-from Rockz.utils.database import (get_chatmode, get_playmode,
+from Gods import app
+from Gods.utils.database import (get_chatmode, get_playmode,
                                        get_playtype)
-from Rockz.utils.decorators import language
-from Rockz.utils.inline.settings import playmode_users_markup
+from Gods.utils.decorators import language
+from Gods.utils.inline.settings import playmode_users_markup
 
 ### Commands
 PLAYMODE_COMMAND = get_command("PLAYMODE_COMMAND")
