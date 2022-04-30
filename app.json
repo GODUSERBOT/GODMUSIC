@@ -1,13 +1,13 @@
 {
-    "name": "Rock Music Bot",
+    "name": "God Music Bot",
     "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
-    "logo": "https://telegra.ph/file/0d0cd252270861a6838ce.png",
+    "logo": "https://te.legra.ph/file/e402df56e49bde20a5400.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
     "xmarty",
-    "RockMusicBot",
+    "GodMusicBot",
     "telegram-bot",
     "pyrogram"
     ],
@@ -70,7 +70,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/S780821/Rock-Muzic-2",
+        "value": "https://github.com/GODUSERBOT/GODMUSIC2",
         "required": true
       },
       "UPSTREAM_BRANCH": {
