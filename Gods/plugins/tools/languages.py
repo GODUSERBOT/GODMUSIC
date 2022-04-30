@@ -6,9 +6,9 @@ from pyrogram.types import InlineKeyboardButton, Message
 
 from config import BANNED_USERS
 from strings import get_command, get_string
-from Rockz import app
-from Rockz.utils.database import get_lang, set_lang
-from Rockz.utils.decorators import (ActualAdminCB, language,
+from Gods import app
+from Gods.utils.database import get_lang, set_lang
+from Gods.utils.decorators import (ActualAdminCB, language,
                                          languageCB)
 
 # Languages Available
