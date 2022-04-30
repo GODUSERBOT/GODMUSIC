@@ -9,17 +9,17 @@ import config
 from config import BANNED_USERS
 from config.config import OWNER_ID
 from strings import get_command, get_string
-from Rockz import Telegram, YouTube, app
-from Rockz.misc import SUDOERS
-from Rockz.plugins.play.playlist import del_plist_msg
-from Rockz.plugins.sudo.sudoers import sudoers_list
-from Rockz.utils.database import (add_served_chat,
+from Gods import Telegram, YouTube, app
+from Gods.misc import SUDOERS
+from Gods.plugins.play.playlist import del_plist_msg
+from Gods.plugins.sudo.sudoers import sudoers_list
+from Gods.utils.database import (add_served_chat,
                                        add_served_user, get_assistant,
                                        get_lang, get_userss,
                                        is_on_off,
                                        is_served_private_chat)
-from Rockz.utils.decorators.language import language
-from Rockz.utils.inline import (help_pannel, private_panel,
+from Gods.utils.decorators.language import language
+from Gods.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
 
