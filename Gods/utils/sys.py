@@ -11,7 +11,7 @@ import time
 
 import psutil
 
-from Rockz.misc import _boot_
+from Gods.misc import _boot_
 
 from .formatters import get_readable_time
 
