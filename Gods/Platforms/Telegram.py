@@ -9,7 +9,7 @@ from pyrogram.types import Voice
 
 import config
 from config import MUSIC_BOT_NAME
-from Rockz import app
+from Gods import app
 
 from ..utils.formatters import (convert_bytes, get_readable_time,
                                 seconds_to_min)
