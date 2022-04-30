@@ -3,9 +3,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, PRIVATE_BOT_MODE, adminlist
 from strings import get_string
-from Rockz import YouTube, app
-from Rockz.misc import SUDOERS
-from Rockz.utils.database import (get_chatmode, get_cmode,
+from Gods import YouTube, app
+from Gods.misc import SUDOERS
+from Gods.utils.database import (get_chatmode, get_cmode,
                                        get_lang, get_loop,
                                        get_playmode, get_playtype,
                                        is_commanddelete_on,
