@@ -48,7 +48,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/S780821/Rock-Music-2",
+    "https://github.com/GODUSERBOT/GODMUSIC2,
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "xmarty")
 
@@ -114,7 +114,7 @@ STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
-# 🇷 🇴 🇨 🇰 🇪 🇷 🇿       🇲 🇺 🇸 🇮 🇨  🇧 🇴 🇹  
+# 𝐆𝐎𝐃𝐒 𝐌𝐔𝐒𝐈𝐂 
 
 ### DONT TOUCH or EDIT codes after this line
 BANNED_USERS = filters.user()
