@@ -5,7 +5,7 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from Rockz.utils.formatters import seconds_to_min
+from Gods.utils.formatters import seconds_to_min
 
 
 class SoundAPI:
