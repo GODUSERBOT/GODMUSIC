@@ -1,6 +1,6 @@
 .env
 .cache
-Rocklogs.txt
+Godslogs.txt
 .DS_Store
 *.session
 raw_files/
