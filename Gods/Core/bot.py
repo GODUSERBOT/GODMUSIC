@@ -43,4 +43,4 @@ class RockBot(Client):
             self.name = get_me.first_name + " " + get_me.last_name
         else:
             self.name = get_me.first_name
-        LOGGER(__name__).info(f"MᴜsɪᴄBᴏᴛ Sᴛᴀʀᴛᴇᴅ ᴀs {self.name}")
+        LOGGER(__name__).info(f"God MᴜsɪᴄBᴏᴛ Sᴛᴀʀᴛᴇᴅ ᴀs {self.name}")
