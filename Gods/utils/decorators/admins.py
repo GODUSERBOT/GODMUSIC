@@ -4,9 +4,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import adminlist
 from strings import get_string
-from Rockz import app
-from Rockz.misc import SUDOERS
-from Rockz.utils.database import (get_authuser_names,
+from Gods import app
+from Gods.misc import SUDOERS
+from Gods.utils.database import (get_authuser_names,
                                        get_chatmode, get_cmode,
                                        get_lang, is_active_chat,
                                        is_commanddelete_on,
