@@ -10,17 +10,17 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
 from strings import get_command
-from Rockz import Carbon, YouTube, app
-from Rockz.utils.database import (delete_playlist, get_chatmode,
+from Gods import Carbon, YouTube, app
+from Gods.utils.database import (delete_playlist, get_chatmode,
                                        get_cmode, get_playlist,
                                        get_playlist_names,
                                        save_playlist)
-from Rockz.utils.decorators.language import language, languageCB
-from Rockz.utils.inline.playlist import (botplaylist_markup,
+from Gods.utils.decorators.language import language, languageCB
+from Gods.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from Rockz.utils.pastebin import Rockbin
-from Rockz.utils.stream.stream import stream
+from Gods.utils.pastebin import Godsbin
+from Gods.utils.stream.stream import stream
 
 # Command
 PLAYLIST_COMMAND = get_command("PLAYLIST_COMMAND")
