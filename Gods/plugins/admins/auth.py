@@ -5,12 +5,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
 from strings import get_command
-from Rockz import app
-from Rockz.utils.database import (delete_authuser, get_authuser,
+from Gods import app
+from Gods.utils.database import (delete_authuser, get_authuser,
                                        get_authuser_names,
                                        save_authuser)
-from Rockz.utils.decorators import AdminActual, language
-from Rockz.utils.formatters import int_to_alpha
+from Gods.utils.decorators import AdminActual, language
+from Gods.utils.formatters import int_to_alpha
 
 # Command
 AUTH_COMMAND = get_command("AUTH_COMMAND")
