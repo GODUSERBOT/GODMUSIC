@@ -1,9 +1,9 @@
 #
-# Copyright (C) 2021-2022 by S780821@Github, < https://github.com/S780821 >.
+# Copyright (C) 2021-2022 by GODUSERBOT@Github, < https://github.com/GODUSERBOT>.
 #
-# This file is part of < https://github.com/S780821/Rock-Muzic > project,
+# This file is part of < https://github.com/GODUSERBOT/GODMUSIC1 > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/S780821/Rock-Muzic-V2/blob/xmarty/LICENSE >
+# Please see < https://github.com/GODUSERBOT/GODMUSIC1/blob/xmarty/LICENSE >
 #
 # All rights reserved.
 
