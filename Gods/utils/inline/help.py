@@ -3,7 +3,7 @@
 #
 # This file is part of < https://github.com/S780821/Rock-Music-V2 > project,
 # and is released under the "GNU v3.0 License Agreement".
-# Please see < https://github.com/S780821/Rock-Music-V2/blob/master/LICENSE >
+# Please see < https://github.com/GODUSERBOT/GODMUSICREPO1/blob/master/LICENSE >
 #
 # All rights reserved.
 
@@ -11,7 +11,7 @@ from typing import Union
 
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from Rockz import app
+from Gods import app
 
 
 def help_pannel(_, START: Union[bool, int] = None):
