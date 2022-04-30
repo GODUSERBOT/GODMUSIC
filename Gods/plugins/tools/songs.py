@@ -13,10 +13,10 @@ from pyrogram.types import (InlineKeyboardButton,
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
 from strings import get_command
-from Rockz import YouTube, app
-from Rockz.utils.decorators.language import language, languageCB
-from Rockz.utils.formatters import convert_bytes
-from Rockz.utils.inline.song import song_markup
+from Gods import YouTube, app
+from Gods.utils.decorators.language import language, languageCB
+from Gods.utils.formatters import convert_bytes
+from Gods.utils.inline.song import song_markup
 
 # Command
 SONG_COMMAND = get_command("SONG_COMMAND")
@@ -180,7 +180,7 @@ async def song_helper_cb(client, CallbackQuery, _):
             print(e)
             return await CallbackQuery.edit_message_text(_["song_7"])
         keyboard = InlineKeyboard()
-        # AVC Formats Only [ RoCkErZ MUSIC BOT ]
+        # AVC Formats Only [ Gods MUSIC BOT ]
         done = [160, 133, 134, 135, 136, 137, 298, 299, 264, 304, 266]
         for x in formats_available:
             check = x["format"]
