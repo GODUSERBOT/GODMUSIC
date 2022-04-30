@@ -7,11 +7,11 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS
 from strings import get_command
-from Rockz import app
-from Rockz.core.call import Rock
-from Rockz.utils.decorators.play import PlayWrapper
-from Rockz.utils.logger import play_logs
-from Rockz.utils.stream.stream import stream
+from Gods import app
+from Goda.core.call import Rock
+from Gods.utils.decorators.play import PlayWrapper
+from Gods.utils.logger import play_logs
+from Gods.utils.stream.stream import stream
 
 # Command
 STREAM_COMMAND = get_command("STREAM_COMMAND")
@@ -36,7 +36,7 @@ async def stream_command(
             _["play_2"].format(channel) if channel else _["play_1"]
         )
         try:
-            await Rock.stream_call(url)
+            await Gods.stream_call(url)
         except NoActiveGroupCall:
             await mystic.edit_text(
                 "There's an issue with the bot. Please report it to my owner and ask them to check logger group."
