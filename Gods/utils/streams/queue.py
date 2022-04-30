@@ -1,7 +1,7 @@
 #@xmartperson
 
 from config import autoclean, chatstats, userstats
-from Rockz.misc import db
+from Gods.misc import db
 
 
 async def put_queue(
