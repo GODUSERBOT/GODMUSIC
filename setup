@@ -1,4 +1,4 @@
-### Rock Muzic Bot Installer
+### Gods Music Bot Installer
 
 cgreen='\033[0;32m'
 cyellow='\033[0;33m'
@@ -25,7 +25,7 @@ node(){
 
 
 repo(){
-	git clone https://github.com/S780821/Rock-Music-2 &&  cd Rock-Music-2 
+	git clone https://github.com/GODUSERBOT/GODMUSIC1 &&  cd God-Music-2 
 }
 
 
