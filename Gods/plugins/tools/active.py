@@ -4,9 +4,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from strings import get_command
-from Rockz import app
-from Rockz.misc import SUDOERS
-from Rockz.utils.database.memorydatabase import (
+from Gods import app
+from Gods.misc import SUDOERS
+from Gods.utils.database.memorydatabase import (
     get_active_chats, get_active_video_chats)
 
 # Commands
