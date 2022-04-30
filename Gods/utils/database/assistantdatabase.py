@@ -2,8 +2,8 @@
 
 import random
 
-from Rockz import userbot
-from Rockz.core.mongo import mongodb
+from Gods import userbot
+from Gods.core.mongo import mongodb
 
 db = mongodb.assistants
 
@@ -24,7 +24,7 @@ async def get_client(assistant: int):
 
 
 async def set_assistant(chat_id):
-    from Rockz.core.userbot import assistants
+    from Gods.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -38,7 +38,7 @@ async def set_assistant(chat_id):
 
 
 async def get_assistant(chat_id: int) -> str:
-    from Rockz.core.userbot import assistants
+    from Gods.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
@@ -65,7 +65,7 @@ async def get_assistant(chat_id: int) -> str:
 
 
 async def set_calls_assistant(chat_id):
-    from Rockz.core.userbot import assistants
+    from Gods.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -78,7 +78,7 @@ async def set_calls_assistant(chat_id):
 
 
 async def group_assistant(self, chat_id: int) -> int:
-    from Rockz.core.userbot import assistants
+    from Gods.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
