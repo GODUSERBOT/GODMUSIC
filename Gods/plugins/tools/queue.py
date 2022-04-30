@@ -8,12 +8,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from Rockz import Carbon, app
-from Rockz.misc import db
-from Rockz.utils.database import (get_chatmode, get_cmode,
+from Gods import Carbon, app
+from Gods.misc import db
+from Gods.utils.database import (get_chatmode, get_cmode,
                                        is_active_chat)
-from Rockz.utils.decorators.language import language
-from Rockz.utils.pastebin import Rockbin
+from Gods.utils.decorators.language import language
+from Gods.utils.pastebin import Godsbin
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")
@@ -50,7 +50,7 @@ async def ping_com(client, message: Message, _):
                         f'🏷Title: {x["title"]}\nDur: {x["dur"]}\n\n'
                     )
             if "Queued" in msg:
-                link = await Rockbin(msg)
+                link = await Godsbin(msg)
                 lines = msg.count("\n")
                 if lines >= 22:
                     car = os.linesep.join(msg.split(os.linesep)[:22])
