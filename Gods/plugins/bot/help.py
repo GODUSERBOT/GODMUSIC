@@ -7,11 +7,11 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
 from strings import get_command, get_string, helpers
-from Rockz import app
-from Rockz.utils import help_pannel
-from Rockz.utils.database import get_lang, is_commanddelete_on
-from Rockz.utils.decorators.language import language, languageCB
-from Rockz.utils.inline.help import (help_back_markup,
+from Gods import app
+from Gods.utils import help_pannel
+from Gods.utils.database import get_lang, is_commanddelete_on
+from Gods.utils.decorators.language import language, languageCB
+from Gods.utils.inline.help import (help_back_markup,
                                           private_help_panel)
 
 ### Command
