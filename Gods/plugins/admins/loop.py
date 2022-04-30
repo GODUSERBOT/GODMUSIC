@@ -5,10 +5,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from Rockz import app
-from Rockz.utils.database.memorydatabase import (get_loop,
+from Gods import app
+from Gods.utils.database.memorydatabase import (get_loop,
                                                       set_loop)
-from Rockz.utils.decorators import AdminRightsCheck
+from Gods.utils.decorators import AdminRightsCheck
 
 # Commands
 LOOP_COMMAND = get_command("LOOP_COMMAND")
