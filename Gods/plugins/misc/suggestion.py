@@ -8,8 +8,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 import config
 from config import clean
-from Rockz import app, userbot
-from Rockz.utils.database import get_served_chats, is_active_chat
+from Gods import app, userbot
+from Gods.utils.database import get_served_chats, is_active_chat
 
 LEAVE_TIME = config.AUTO_LEAVE_ASSISTANT_TIME
 
