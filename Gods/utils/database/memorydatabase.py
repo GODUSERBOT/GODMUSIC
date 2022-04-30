@@ -2,7 +2,7 @@
 
 
 import config
-from Rockz.core.mongo import mongodb
+from Gods.core.mongo import mongodb
 
 channeldb = mongodb.cplaymode
 commanddb = mongodb.commands
